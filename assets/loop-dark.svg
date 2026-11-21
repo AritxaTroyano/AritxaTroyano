@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="How I build: notice, spec, build, ship, measure, and the question I ask at each step.">
+<style>.f{opacity:0;animation:in .6s ease-out forwards}
+.seg{opacity:0;animation:seg .25s ease-out forwards}
+.blink{animation:bl 1.1s steps(1) infinite}
+.pulse{animation:pu 2s ease-in-out infinite}
+@keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@keyframes seg{to{opacity:1}}
+@keyframes bl{50%{opacity:0}}
+@keyframes pu{50%{opacity:.3}}
+@keyframes runx{0%{transform:translateX(0);opacity:0}6%{opacity:1}94%{opacity:1}100%{transform:translateX(-960px);opacity:0}}.run{animation:runx 6s cubic-bezier(.6,0,.4,1) infinite}
+@media (prefers-reduced-motion:reduce){.f,.seg{animation:none;opacity:1}.blink,.pulse,.mq,.run{animation:none}}</style>
+<rect x="1" y="1" width="1278" height="358" rx="22" fill="#0B0A12" stroke="#2A2740" stroke-width="2"/>
+<text x="48" y="50" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#9A96B5" letter-spacing="1">HOW I BUILD  ·  <tspan fill="#EDEBFA">one loop</tspan>  ·  and the question that decides each step</text>
+<path d="M56 94v-10h440v10" fill="none" stroke="#A99BFF" stroke-width="2"/>
+<text x="276.0" y="76" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="700" fill="#A99BFF">PM brain</text>
+<path d="M536 94v-10h440v10" fill="none" stroke="#FF6B1A" stroke-width="2"/>
+<text x="756.0" y="76" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="700" fill="#FF6B1A">maker hands</text>
+<path d="M1016 94v-10h200v10" fill="none" stroke="#3DDC97" stroke-width="2"/>
+<text x="1116.0" y="76" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="700" fill="#3DDC97">honest data</text>
+<g class="f" style="animation-delay:0.15s">
+<rect x="48" y="110" width="216" height="150" rx="14" fill="#1C1A2B" stroke="#2A2740"/>
+<text x="68" y="144" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="700" fill="#A99BFF">01</text>
+<text x="68" y="172" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="21" font-weight="700" fill="#EDEBFA">Notice</text>
+<text x="68" y="208" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-style="italic" fill="#9A96B5">“Is this a real</text>
+<text x="68" y="228" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-style="italic" fill="#9A96B5">problem, or just mine?”</text>
+</g>
+<path d="M268 185.0h16m-6 -5l6 5l-6 5" fill="none" stroke="#9A96B5" stroke-width="1.6"/>
+<g class="f" style="animation-delay:0.35s">
+<rect x="288" y="110" width="216" height="150" rx="14" fill="#1C1A2B" stroke="#2A2740"/>
+<text x="308" y="144" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="700" fill="#A99BFF">02</text>
+<text x="308" y="172" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="21" font-weight="700" fill="#EDEBFA">Spec</text>
+<text x="308" y="208" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-style="italic" fill="#9A96B5">“What's the smallest</text>
+<text x="308" y="228" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-style="italic" fill="#9A96B5">thing worth building?”</text>
+</g>
+<path d="M508 185.0h16m-6 -5l6 5l-6 5" fill="none" stroke="#9A96B5" stroke-width="1.6"/>
+<g class="f" style="animation-delay:0.55s">
+<rect x="528" y="110" width="216" height="150" rx="14" fill="#1C1A2B" stroke="#2A2740"/>
+<text x="548" y="144" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="700" fill="#FF6B1A">03</text>
+<text x="548" y="172" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="21" font-weight="700" fill="#EDEBFA">Build</text>
+<text x="548" y="208" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-style="italic" fill="#9A96B5">“Can one person</text>
+<text x="548" y="228" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-style="italic" fill="#9A96B5">maintain this?”</text>
+</g>
+<path d="M748 185.0h16m-6 -5l6 5l-6 5" fill="none" stroke="#9A96B5" stroke-width="1.6"/>
+<g class="f" style="animation-delay:0.75s">
+<rect x="768" y="110" width="216" height="150" rx="14" fill="#1C1A2B" stroke="#2A2740"/>
+<text x="788" y="144" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="700" fill="#FF6B1A">04</text>
+<text x="788" y="172" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="21" font-weight="700" fill="#EDEBFA">Ship</text>
+<text x="788" y="208" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-style="italic" fill="#9A96B5">“Would anyone</text>
+<text x="788" y="228" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-style="italic" fill="#9A96B5">pay for it?”</text>
+</g>
+<path d="M988 185.0h16m-6 -5l6 5l-6 5" fill="none" stroke="#9A96B5" stroke-width="1.6"/>
+<g class="f" style="animation-delay:0.95s">
+<rect x="1008" y="110" width="216" height="150" rx="14" fill="#1C1A2B" stroke="#2A2740"/>
+<text x="1028" y="144" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="700" fill="#3DDC97">05</text>
+<text x="1028" y="172" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="21" font-weight="700" fill="#EDEBFA">Measure</text>
+<text x="1028" y="208" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-style="italic" fill="#9A96B5">“Keep it,</text>
+<text x="1028" y="228" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-style="italic" fill="#9A96B5">or kill it?”</text>
+</g>
+<path d="M156.0 294H1116.0" stroke="#2A2740" stroke-width="2" stroke-dasharray="4 6"/>
+<path d="M1116.0 260v34M156.0 294v-34m-5 7l5 -7l5 7" fill="none" stroke="#2A2740" stroke-width="2"/>
+<circle class="run" cx="1116.0" cy="294" r="6" fill="#FF6B1A"/>
+<text x="640" y="324" text-anchor="middle" font-family="'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" fill="#9A96B5">// repeat until something sticks. most things don't, and that's fine.</text>
+</svg>
