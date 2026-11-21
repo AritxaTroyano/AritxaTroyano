@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img alt="Aritxa Troyano. Product maker. PM by day, maker by night." src="assets/hero-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/maker-hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/maker-hero-light.svg">
+  <img alt="Aritxa Troyano. Product maker. PM by day, maker by night." src="assets/maker-hero-dark.svg" width="100%">
 </picture>
 
 <br>
